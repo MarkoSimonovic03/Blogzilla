@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "U000",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "U001",
+      "username": "John",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "id": "U002",
+      "username": "Emma",
+      "password": "password456",
+      "role": "user"
+    },
+    {
+      "id": "U003",
+      "username": "Michael",
+      "password": "password789",
+      "role": "user"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "B001",
+      "userId": "U001",
+      "title": "The Future of Artificial Intelligence",
+      "body": "Artificial intelligence is rapidly evolving, impacting industries from healthcare to finance. As AI technology advances, ethical considerations and regulations become crucial.",
+      "createdAt": "2025-01-12"
+    },
+    {
+      "id": "B002",
+      "userId": "U001",
+      "title": "The Importance of a Healthy Diet",
+      "body": "Eating a balanced diet is essential for maintaining good health. Incorporating fruits, vegetables, and whole grains can help prevent chronic diseases and boost overall well-being.",
+      "createdAt": "2025-01-15"
+    },
+    {
+      "id": "B003",
+      "userId": "U002",
+      "title": "The Power of Meditation",
+      "body": "Meditation can significantly reduce stress and improve mental clarity. Practicing mindfulness daily helps in maintaining a calm and focused mind.",
+      "createdAt": "2025-01-18"
+    },
+    {
+      "id": "B004",
+      "userId": "U002",
+      "title": "Exploring Space: The Next Frontier",
+      "body": "Space exploration continues to captivate humanity, with missions to Mars and beyond. Advances in technology are making interstellar travel a future possibility.",
+      "createdAt": "2025-01-20"
+    },
+    {
+      "id": "B005",
+      "userId": "U003",
+      "title": "The Rise of Electric Vehicles",
+      "body": "Electric vehicles are revolutionizing the automotive industry, reducing carbon footprints and dependency on fossil fuels. Many countries are investing in sustainable transportation solutions.",
+      "createdAt": "2025-01-22"
+    },
+    {
+      "id": "B006",
+      "userId": "U003",
+      "title": "The Benefits of Regular Exercise",
+      "body": "Engaging in physical activity boosts cardiovascular health, strengthens muscles, and improves mood. Regular exercise is key to a healthy and active lifestyle.",
+      "createdAt": "2025-01-25"
+    }
+  ],
+  "comments": [
+    {
+      "id": "C001",
+      "blogId": "B001",
+      "userId": "U002",
+      "text": "AI is truly shaping the future! Exciting times ahead.",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C002",
+      "blogId": "B001",
+      "userId": "U003",
+      "text": "Ethics in AI development is a crucial topic. Great read!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C003",
+      "blogId": "B002",
+      "userId": "U002",
+      "text": "Healthy eating has changed my life. Great insights!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C004",
+      "blogId": "B002",
+      "userId": "U003",
+      "text": "I need to improve my diet. This article was inspiring!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C005",
+      "blogId": "B003",
+      "userId": "U001",
+      "text": "Meditation has helped me manage stress. Highly recommend it!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C006",
+      "blogId": "B003",
+      "userId": "U003",
+      "text": "Mindfulness is key to a peaceful mind. Nice post!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C007",
+      "blogId": "B004",
+      "userId": "U001",
+      "text": "Space travel fascinates me. Hope to see Mars missions soon!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C008",
+      "blogId": "B004",
+      "userId": "U003",
+      "text": "The universe holds so many mysteries. Great read!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C009",
+      "blogId": "B005",
+      "userId": "U001",
+      "text": "Electric cars are the future. Excited to see more progress!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C010",
+      "blogId": "B005",
+      "userId": "U002",
+      "text": "EV technology is improving so fast. Can't wait for better batteries!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C011",
+      "blogId": "B006",
+      "userId": "U001",
+      "text": "Exercise keeps me energized throughout the day. Great topic!",
+      "createdAt": "2025-03-16"
+    },
+    {
+      "id": "C012",
+      "blogId": "B006",
+      "userId": "U002",
+      "text": "Staying active is so important. Loved this article!",
+      "createdAt": "2025-03-16"
+    }
+  ]
+}
